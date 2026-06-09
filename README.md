@@ -3,7 +3,7 @@
 <div align="center">
 
 <!-- 대표 이미지 -->
-![대표 이미지](./대표이미지경로.png)
+![대표 이미지](./assets/OverTheGlass로고.png)
 
 <!-- 배지 (선택) -->
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
