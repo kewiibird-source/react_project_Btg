@@ -267,7 +267,7 @@ function Menu() {
       {/* 게시글 작성 모달 */}
       <Write open={isWriteModalOpen} onClose={() => setIsWriteModalOpen(false)} />
       {/* 알림창 모달 */}
-      <NotificationModal open={isNotiOpen} onClose={() => setIsNotiOpen(false)} />
+      <NotificationModal open={isNotiOpen} onClose={() => { setIsNotiOpen(false); fetchUnreadCount(); }} onRead={fetchUnreadCount} />
     </>
   );
 }
